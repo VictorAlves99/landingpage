@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+header{
+    background-color: transparent;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+}
+
+header img{
+    width:32px;
+    height: 32px;
+    padding-left: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+header a{
+    padding-bottom: 0px;
+    padding-top:10px;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Do Hyeon', sans-serif;
+    color: #d7d7d7;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    color: black;
+    font-size: 20px;
+    padding-right: 40px;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Do Hyeon', sans-serif;
+    color: #d7d7d7;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+div{
+    width: 100%;
+    height: 100vh;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    background-image: url("img/evento.jpg");
+    background-size:cover; 
+}
